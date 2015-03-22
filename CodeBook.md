@@ -1,4 +1,4 @@
-The code does the following steps
+The run_analysis.R code does the following steps
 1. Read X_train.txt, y_train.txt and subject_train.txt from the "./data/train" folder and store them in trainData, trainLabel and trainSubject variables respectively.
 2. Read X_test.txt, y_test.txt and subject_test.txt from the "./data/test" folder and store them in testData, testLabel and testsubject variables respectively.
 3. Combine testData to trainData to generate a new data frame, joinData; combine testLabel to trainLabel to generate another data frame which is joinLabel; combine testSubject to trainSubject and generate new data frame which is joinSubject.
